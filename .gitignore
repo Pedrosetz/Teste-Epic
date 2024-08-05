@@ -1,5 +1,4 @@
 pom.xml
-.gitignore
 
 target/
 !.mvn/wrapper/maven-wrapper.jar
