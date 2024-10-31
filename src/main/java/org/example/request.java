@@ -11,9 +11,7 @@ import java.net.http.HttpResponse;
 
 public class request {
     private final String BASE_URL ="https://store-site-backend-static-ipv4.ak.epicgames.com";
-
     private final String ENDPOINT = "/freeGamesPromotions?locale=pt-BR&country=BR&allowCountries=BR";
-
     private final HttpClient CLIENT;
 
 public request() {
@@ -117,7 +115,7 @@ public JsonArray create() throws IOException, InterruptedException {
             System.out.println("Falha ao enviar mensagem. Código de status: " + response.statusCode());
             System.out.println("Resposta do servidor: " + response.body());
         }
+
     }
 }
-
 
