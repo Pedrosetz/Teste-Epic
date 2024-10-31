@@ -1,8 +1,6 @@
 package org.example;
 
 import com.google.gson.*;
-import com.sun.net.httpserver.Request;
-
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
